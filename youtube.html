@@ -11,71 +11,19 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      p {
-        font-family: Roboto, Arial;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .thumbnail {
-        width: 100%;
-      }
-
-      .search-bar {
-        display: block;
-      }
-
-      .video-title {
-        margin-top: 0;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 12px;
-      }
-
-      .video-preview {
-      }
-
-      .channel-picture {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-      }
-
-      .video-info-grid {
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-
-      .profile-picture {
-        width: 40px;
-        border-radius: 50px;
-      }
-
-      .thumbnail-row {
-        margin-bottom: 12px;
-      }
-
-      .video-author,
-      .video-stats {
-        font-size: 15px;
-        color: rgb(96, 96, 96);
-      }
-
-      .video-author {
-        margin-bottom: 5px;
-      }
-
-      .video-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 15px;
-        row-gap: 40px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
   </head>
   <body>
-    <input class="search-bar" type="text" placeholder="Search" />
+    <div class="header">
+      <div class="left-section">left section</div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+      </div>
+      <div class="right-section">right section</div>
+    </div>
+
     <div class="video-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
@@ -144,7 +92,7 @@
           </div>
           <div class="video-info">
             <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
+              Crazy Tik Toks Taken Moments Before DISASTER
             </p>
             <p class="video-author">SSSniperWolf</p>
 
@@ -169,9 +117,11 @@
             />
           </div>
           <div class="video-info">
-            <p class="video-title">Try Not To Laugh Challenge</p>
-            <p class="video-author">Markiplier</p>
-            <p class="video-stats">19M views &middot; 4 years ago</p>
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="video-author">Veritasium</p>
+            <p class="video-stats">18M views &middot; 4 months ago</p>
           </div>
         </div>
       </div>
@@ -179,7 +129,7 @@
         <div class="thumbnail-row">
           <img
             class="thumbnail"
-            src="thumbnails/thumbnail-1.webp"
+            src="thumbnails/thumbnail-5.webp"
             alt="Video thumbnail"
           />
         </div>
@@ -187,17 +137,17 @@
           <div class="channel-picture">
             <img
               class="profile-picture"
-              src="channel-pictures/channel-1.jpeg"
+              src="channel-pictures/channel-5.jpeg"
               alt="Profile picture of chanel"
             />
           </div>
           <div class="video-info">
             <p class="video-title">
-              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              Kadane's Algorithm to Maximum Sum Subarray Problem
             </p>
-            <p class="video-author">Veritasium</p>
+            <p class="video-author">CS Dojo</p>
 
-            <p class="video-stats">18M views &middot; 4 months ago</p>
+            <p class="video-stats">519K views &middot; 5 years ago</p>
           </div>
         </div>
       </div>
@@ -219,10 +169,10 @@
           </div>
           <div class="video-info">
             <p class="video-title">
-              Kadane's Algorithm to Maximum Sum Subarray Problem
+              Anything You Can Fit In The Circle I’ll Pay For
             </p>
-            <p class="video-author">CS Dojo</p>
-            <p class="video-stats">519K views &middot; 5 years ago</p>
+            <p class="video-author">MrBeast</p>
+            <p class="video-stats">141M views &middot; 1 year ago</p>
           </div>
         </div>
       </div>
